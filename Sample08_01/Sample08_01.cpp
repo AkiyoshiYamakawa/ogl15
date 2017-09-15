@@ -29,6 +29,7 @@ void reshape(int width, int height)
 {
 	window_width = width;
 	window_height = height;
+	glViewport(0,0,window_width,window_height);
 	printf("(w, h) = (%d,%d)\n",window_width,window_height);
 }
 //マウス(クリック)
